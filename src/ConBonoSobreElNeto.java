@@ -1,4 +1,4 @@
-public class ConBonoSobreElNeto extends Cadete implements IBonoSobreNeto{
+public class ConBonoSobreElNeto extends Cadete implements IBonoPorDesempenio{
     Cadete trabajador;
     ConBonoSobreElNeto(Cadete trabajador) {
         this.trabajador = trabajador;
